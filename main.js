@@ -39,11 +39,11 @@ if(results.length > 0){
 
         rightWristX = results[0].pose.rightWrist.x;
         rightWristY = results[0].pose.rightWrist.y;
-console.log("rightwrist x = "+rightwristX+" rightwrist y = "+rightwristY);
+console.log("rightwrist x = "+rightWristX+" rightwrist y = "+rightWristY);
 
 leftWristX = results[0].pose.leftWrist.x;
 leftWristY = results[0].pose.leftWrist.y;
-console.log("leftwrist x = "+leftwristX+" leftwrist y = "+leftwristtY);
+console.log("leftwrist x = "+leftWristX+" leftwrist y = "+leftWristY);
     }
 }
 
