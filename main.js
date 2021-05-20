@@ -49,15 +49,17 @@ console.log("leftwrist x = "+leftWristX+" leftwrist y = "+leftWristY);
 
 function play1(){
     song1.play();
+	song1.setVolume(mouseY);
 }
 
 function play2(){
 	song2.play();
-}
-
-function draw(){
-    image(video,0,0,600,500);
-
-
-}
- 
+	song2.setVolume(mouseY);
+	}
+	
+	function draw(){
+		image(video,0,0,600,500);
+	fill("#FF0000");
+	stroke("#000000");
+	strokeWeight(3);
+	}
